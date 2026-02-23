@@ -84,7 +84,6 @@ payload:
   - PROCESS-NAME-WILDCARD,watchdog*.exe # Watch Dogs
 
   # --- All games (cleaned: removed 271 SP-only titles) ---
-  - PROCESS-NAME,0) marssteam.exe
   - PROCESS-NAME,000 space marine 2 - retail.exe
   - PROCESS-NAME,1-iw6sp64.exe
   - PROCESS-NAME,12m.exe
