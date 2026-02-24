@@ -56,35 +56,35 @@ payload:
   - PROCESS-NAME,KRSDKExternal.exe # SDK
 
 
-  # --- Wildcard rules (consolidated) ---
-  - PROCESS-NAME-WILDCARD,*-win64-shipping.exe # UE4/UE5 Win64 Shipping builds
-  - PROCESS-NAME-WILDCARD,*-win32-shipping.exe # UE4 Win32 Shipping builds
-  - PROCESS-NAME-WILDCARD,anno*.exe # Anno
-  - PROCESS-NAME-WILDCARD,bf*.exe # Battlefield
-  - PROCESS-NAME-WILDCARD,civilization*.exe # Civilization
-  - PROCESS-NAME-WILDCARD,crysis*.exe # Crysis
-  - PROCESS-NAME-WILDCARD,farcry*.exe # Far Cry
-  - PROCESS-NAME-WILDCARD,farmingsimulator*.exe # Farming Simulator
-  - PROCESS-NAME-WILDCARD,fc*.exe # EA FC / Far Cry spinoffs
-  - PROCESS-NAME-WILDCARD,f1*.exe # F1 / Formula 1
-  - PROCESS-NAME-WILDCARD,fifa*.exe # FIFA / EA FC (legacy)
-  - PROCESS-NAME-WILDCARD,hellgate*.exe # Hellgate
-  - PROCESS-NAME-WILDCARD,justcause*.exe # Just Cause
-  - PROCESS-NAME-WILDCARD,lego*.exe # LEGO games
-  - PROCESS-NAME-WILDCARD,madden*.exe # Madden NFL
-  - PROCESS-NAME-WILDCARD,mk1*.exe # Mortal Kombat
-  - PROCESS-NAME-WILDCARD,motogp*.exe # MotoGP
-  - PROCESS-NAME-WILDCARD,nba*.exe # NBA
-  - PROCESS-NAME-WILDCARD,nfs*.exe # Need for Speed
-  - PROCESS-NAME-WILDCARD,nhl*.exe # NHL
-  - PROCESS-NAME-WILDCARD,pathofexile*.exe # Path of Exile
-  - PROCESS-NAME-WILDCARD,pes*.exe # Pro Evolution Soccer
-  - PROCESS-NAME-WILDCARD,sammax*.exe # Sam & Max
-  - PROCESS-NAME-WILDCARD,scimitar*.exe # Ubisoft Scimitar engine
-  - PROCESS-NAME-WILDCARD,sims*.exe # The Sims
-  - PROCESS-NAME-WILDCARD,sniperelite*.exe # Sniper Elite
-  - PROCESS-NAME-WILDCARD,sunrisex*.exe # Ubisoft Sunrise engine
-  - PROCESS-NAME-WILDCARD,watchdog*.exe # Watch Dogs
+# --- Wildcard rules (consolidated) ---
+  - PROCESS-NAME-REGEX,(?i).*-win64-shipping\.exe$ # UE4/UE5 Win64 Shipping builds
+  - PROCESS-NAME-REGEX,(?i).*-win32-shipping\.exe$ # UE4 Win32 Shipping builds
+  - PROCESS-NAME-REGEX,(?i)anno.*\.exe$ # Anno
+  - PROCESS-NAME-REGEX,(?i)bf.*\.exe$ # Battlefield
+  - PROCESS-NAME-REGEX,(?i)civilization.*\.exe$ # Civilization
+  - PROCESS-NAME-REGEX,(?i)crysis.*\.exe$ # Crysis
+  - PROCESS-NAME-REGEX,(?i)farcry.*\.exe$ # Far Cry
+  - PROCESS-NAME-REGEX,(?i)farmingsimulator.*\.exe$ # Farming Simulator
+  - PROCESS-NAME-REGEX,(?i)fc.*\.exe$ # EA FC / Far Cry spinoffs
+  - PROCESS-NAME-REGEX,(?i)f1.*\.exe$ # F1 / Formula 1
+  - PROCESS-NAME-REGEX,(?i)fifa.*\.exe$ # FIFA / EA FC (legacy)
+  - PROCESS-NAME-REGEX,(?i)hellgate.*\.exe$ # Hellgate
+  - PROCESS-NAME-REGEX,(?i)justcause.*\.exe$ # Just Cause
+  - PROCESS-NAME-REGEX,(?i)lego.*\.exe$ # LEGO games
+  - PROCESS-NAME-REGEX,(?i)madden.*\.exe$ # Madden NFL
+  - PROCESS-NAME-REGEX,(?i)mk1.*\.exe$ # Mortal Kombat
+  - PROCESS-NAME-REGEX,(?i)motogp.*\.exe$ # MotoGP
+  - PROCESS-NAME-REGEX,(?i)nba.*\.exe$ # NBA
+  - PROCESS-NAME-REGEX,(?i)nfs.*\.exe$ # Need for Speed
+  - PROCESS-NAME-REGEX,(?i)nhl.*\.exe$ # NHL
+  - PROCESS-NAME-REGEX,(?i)pathofexile.*\.exe$ # Path of Exile
+  - PROCESS-NAME-REGEX,(?i)pes.*\.exe$ # Pro Evolution Soccer
+  - PROCESS-NAME-REGEX,(?i)sammax.*\.exe$ # Sam & Max
+  - PROCESS-NAME-REGEX,(?i)scimitar.*\.exe$ # Ubisoft Scimitar engine
+  - PROCESS-NAME-REGEX,(?i)sims.*\.exe$ # The Sims
+  - PROCESS-NAME-REGEX,(?i)sniperelite.*\.exe$ # Sniper Elite
+  - PROCESS-NAME-REGEX,(?i)sunrisex.*\.exe$ # Ubisoft Sunrise engine
+  - PROCESS-NAME-REGEX,(?i)watchdog.*\.exe$ # Watch Dogs
 
   # --- All games (cleaned: removed 271 SP-only titles) ---
   - PROCESS-NAME,0) marssteam.exe
